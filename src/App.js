@@ -32,20 +32,24 @@ function App() {
           The Movie db
         </a>
         <nav>
-          <div>
-            <a
-              href="https://github.com/fixmylifedesigns/moviesdbnodebackend"
-              className="navLink"
-            >
-              Backend-End Repo
-            </a>
-            <a
-              href="https://github.com/fixmylifedesigns/idmoviereactapp"
-              className="navLink"
-            >
-              Front-end Repo
-            </a>
-          </div>
+          <a
+            href="https://github.com/fixmylifedesigns/moviesdbnodebackend"
+            className="navLink"
+          >
+            Backend-End Repo
+          </a>
+          <a
+            href="https://github.com/fixmylifedesigns/idmoviereactapp"
+            className="navLink"
+          >
+            Front-end Repo
+          </a>
+          <a
+            href="https://documenter.getpostman.com/view/7133880/SzKN237P?version=latest"
+            className="navLink"
+          >
+            Api Doc
+          </a>
         </nav>
       </footer>
     </div>
