@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #3f51b5;
+  min-height: 40px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.filterButtons {
+  width: 200px;
+  margin: 30px;
+}
+
+.navLink {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
