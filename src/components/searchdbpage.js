@@ -16,7 +16,7 @@ export default function Searchdbpage(props) {
   };
 
   useEffect(() => {
-    if (search != "") {
+    if (search !== "") {
       postSearch();
     }
   }, [search]);
@@ -53,8 +53,8 @@ export default function Searchdbpage(props) {
       >
         {!posts ? (
           <div style={{ margin: "auto" }}>
-            <h1>Build your movie collection today</h1>
-            <h3>Simple search through the MovieDB database for your favorite movies and add them to your collection</h3>
+            <h1>Help us build our movie collection today</h1>
+            <h3>Simply search through the MovieDB database for your favorite movies and add them to our collection</h3>
           </div>
         ) : (
           posts &&
