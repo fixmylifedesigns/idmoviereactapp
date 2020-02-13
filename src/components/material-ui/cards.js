@@ -91,7 +91,8 @@ export default function RecipeReviewCard(props) {
       </div>
       <h3>{props.post.title}</h3>
       <p>{"Release Date " + props.post.release_date}</p>
-      <div
+      <p>{"votes" + props.post.vote_count}</p>
+<div
         style={{
           zIndex: 1,
           position: "absolute",
