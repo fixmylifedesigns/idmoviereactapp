@@ -55,7 +55,7 @@ export default function RecipeReviewCard(props) {
 
   const addToFavortie = () => {
     axios
-      .post("http://localhost:4000/api/newmovie", movie)
+      .post("https://iqmoviedb.herokuapp.com/api/newmovie", movie)
       .then(res => {
         console.log(res.data);
         setAdded("Added to favorites");
